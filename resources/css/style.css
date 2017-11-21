@@ -1,0 +1,435 @@
+html {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 16px;
+}
+
+div {
+  border: 1px solid transparent;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.left {
+  width: 720px;
+
+}
+
+.right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #383837;
+}
+
+.description {
+  font-size: 1rem;
+  color: #383837;
+  line-height: 1.5;
+}
+
+.read {
+  font-size: 1rem;
+  color: blue;
+}
+
+.unit {
+  width: 100%;
+  display: flex;
+}
+
+.unit-info {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.unit-info .description {
+  padding: 8px 0px;
+}
+
+.unit img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.container-title h2 {
+  padding: 32px 0px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+header h1.a {
+  font-weight: bold;
+}
+
+header h1.b {
+  color: gray;
+}
+
+#logo {
+  background-color: white;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#logo img:first-child {
+  display: inline;
+  padding-left: 24px;
+}
+
+#logo img {
+  display: none;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 8px;
+}
+
+nav li:last-child {
+  padding-left: 8px;
+  padding-right: 24px;
+}
+
+#banner {
+  display: flex;
+  background-color: #e1e1dc;
+  height: 550px;
+  overflow: hidden;
+}
+
+#banner img {
+  padding: 32px 24px;
+  max-width: 60%;
+  height: 90%;
+  display: block;
+}
+
+#banner .right h1 {
+  width: 60%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #383837;
+  padding-bottom: 1rem;
+  line-height: 2.5rem;
+}
+
+#banner .right p {
+  width: 60%;
+  font-size: 1.25rem;
+  color: #383837;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+#button {
+  width: 60%;
+  text-align: center;
+  color: white;
+  background-color: #383837;
+  padding: 8px 0px;
+}
+
+#events {
+  display: flex;
+  height: 625px;
+  overflow: hidden;
+}
+
+#events .left {
+  border-right: 1px solid #e1e1dc;
+}
+
+#events .right {
+  height: 550px;
+}
+
+#events h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0px 0px 24px 24px;
+}
+
+#events p {
+  padding-left: 24px;
+  width: 85%;
+}
+
+#events .left span {
+  display: block;
+  padding: 32px 0px 32px 24px;
+  font-size: .85rem;
+  font-weight: bold;
+}
+
+#events .left img {
+  max-width: 93%;
+  height: auto;
+  padding: 32px 24px;
+}
+
+img.desktop {
+  height: auto;
+  width: 35%;
+}
+
+img.mobile {
+  display: none;
+}
+
+#events .unit {
+  border-bottom: 1px solid #e1e1dc;
+}
+
+#events .unit:last-child {
+  background-color: #e1e1dc;
+}
+
+#classes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e1e1dc;
+}
+
+#classes .title {
+  padding: 16px 0px 8px 16px;
+}
+
+#classes .course {
+  padding: 8px 0px 8px 16px;
+}
+
+#classes .description {
+  padding: 0px 0px 24px 16px;
+}
+
+.class {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 0px 32px 32px 0px;
+}
+
+.class:nth-child(3n+1) {
+  margin-right: 0px;
+}
+
+.class img {
+  height: auto;
+  width: 300px;
+}
+
+#thesis {
+  height: auto;
+  background-color: #f8f8f5;
+  border-bottom: 1px solid #e1e1dc;
+}
+
+#thesis .container-body {
+  display: flex;
+}
+
+#thesis .left video {
+  width: 92%;
+  height: auto;
+  padding: 0px 24px;
+}
+
+#thesis .left h2 {
+  padding: 24px 0px 8px 24px;
+}
+
+#thesis .left p {
+  padding: 0px 0px 32px 24px;
+}
+
+#thesis .right {
+  height: 350px;
+}
+
+#thesis .unit:first-child {
+  background-color: #e1e1dc;
+}
+
+footer  {
+  background-color: #f8f8f5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms {
+  padding: 16px 24px 48px 24px;
+  font-size: .9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.terms li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  #logo {
+    justify-content: space-around;
+  }
+
+
+  #logo img {
+    display: inline-block;
+    padding: 0px 36px;
+  }
+
+  #logo img:first-child {
+    display: inline-block;
+    padding: 0px 36px;
+  }
+
+  #logo h1,
+  #logo nav,
+  #events .left,
+  img.desktop,
+  #classes img,
+  #classes .course,
+  #classes .description,
+  #thesis .right,
+  #thesis .container-body h2,
+  #thesis .container-body p,
+  .nav {
+    display: none;
+  }
+
+  #banner img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  #banner h1 {
+    padding: 32px 16px;
+  }
+
+  #banner p {
+    padding: 0px 0px 24px 16px;
+  }
+
+  #button {
+    margin: 0px 0px 32px 16px;
+  }
+
+  #banner,
+  #events {
+    height: auto;
+  }
+
+  #events .unit {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  #events .unit-info {
+    display: block;
+    padding-left: 32px;
+    padding-bottom: 64px;
+  }
+
+  #events .unit {
+    border-bottom: 1px solid transparent;
+  }
+
+  #events .right {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+ img.mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-left: 16px;
+  }
+
+  #events span {
+    display: block;
+  }
+
+  #events .unit:last-child {
+    background-color: transparent;
+  }
+
+  .container-title h2 {
+    padding: 32px 0px 16px 0px;
+  }
+
+  #classes {
+      background-color: #f8f8f5;
+  }
+
+  .class {
+    padding: 16px 0px 24px 16px;
+    background-color: #e1e1dc;
+    max-width: 100%;
+    margin: 8px 0px;
+  }
+
+  .class:nth-child(3n+1) {
+    margin-right: 0px;
+  }
+
+  #thesis .left {
+    width: 100%;
+  }
+
+  #thesis .left video {
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+
+}
